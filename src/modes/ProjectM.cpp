@@ -101,10 +101,10 @@ void ProjectM::UpdateAnalogOutputs(InputState &inputs, OutputState &outputs) {
             outputs.leftStickX = 128 + (directions.x * 70);
             outputs.leftStickY = 128 + (directions.y * 34);
 
-            if (inputs.b) {
-                outputs.leftStickX = 128 + (directions.x * 85);
-                outputs.leftStickY = 128 + (directions.y * 31);
-            }
+//            if (inputs.b) {
+//                outputs.leftStickX = 128 + (directions.x * 85);
+//                outputs.leftStickY = 128 + (directions.y * 31);
+//            }
 
             if (inputs.r) {
                 outputs.leftStickX = 128 + (directions.x * 82);
@@ -145,10 +145,10 @@ void ProjectM::UpdateAnalogOutputs(InputState &inputs, OutputState &outputs) {
             outputs.leftStickX = 128 + (directions.x * 28);
             outputs.leftStickY = 128 + (directions.y * 58);
 
-            if (inputs.b) {
-                outputs.leftStickX = 128 + (directions.x * 28);
-                outputs.leftStickY = 128 + (directions.y * 85);
-            }
+//            if (inputs.b) {
+//                outputs.leftStickX = 128 + (directions.x * 28);
+//                outputs.leftStickY = 128 + (directions.y * 85);
+//            }
 
             if (inputs.r) {
                 outputs.leftStickX = 128 + (directions.x * 51);
